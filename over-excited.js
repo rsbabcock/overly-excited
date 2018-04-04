@@ -27,7 +27,7 @@ const sentence = ["A","wild","band","of","penguins","took","over","an","airplane
 const newSentence =["Huge","hamsters","stole","a","bmw","and","took","a","joy","ride","to","alaska","where","they","died"]
 
 // Function that allows for 2 parameters, an array of words (like a sentence) and an ending character, or another sentence or anything
-function addExcitement (theWordArray, endingCharacter) {
+const addExcitement = (theWordArray, endingCharacter) => {
     // build me up builds the sentence from the array of words passed in
     let buildMeUp = ''
     // for loops uses the length of the array to give it a stopping point

@@ -28,9 +28,13 @@ let sentence = ["A","wild","band","of","penguins","took","over","an","airplane",
 function addExcitement (theWordArray) {
     let buildMeUp = ''
     for (let i = 0; i < theWordArray.length; i++) {
-        buildMeUp += theWordArray[i];
+        buildMeUp += theWordArray[i] + " ";
+        if(i % 3 === 0) {
+            buildMeUp += '!';
+        }
         console.log(buildMeUp);
     }
+
 
 }
 
